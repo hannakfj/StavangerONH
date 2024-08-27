@@ -1,0 +1,77 @@
+/* Styles for the Contact component */
+#contact {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    font-size: smaller;
+    font-family: 'Arial', sans-serif;
+    display: block;
+    justify-content: center;
+    padding: 1%;
+}
+
+.headerK {
+    font-size: 2.5em;
+    text-align: center;
+    color: #333;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.contact-info {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.contact-info p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.contact-info strong {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.contact-info a {
+    color: #333; /* Set link color to black */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-info a[href^="mailto"] {
+    align-items: center;
+    color: #333; /* Ensure email links are also black */
+}
+
+.contact-info a:hover {
+    color: #000; /* Darken link color on hover */
+    text-decoration: underline;
+}
+
+.box {
+    display: flex;
+    justify-content: center; /* Center the child elements horizontally */
+    padding: 0%; /* Ensure no padding affects centering */
+}
+
+.gmap {
+    width: 45%;
+    height: 350px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.linkedin {
+    width: 30px;
+    padding-left: 10px;
+}
+
+.foot {
+    margin: 0 auto;
+    width: fit-content;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+
+}

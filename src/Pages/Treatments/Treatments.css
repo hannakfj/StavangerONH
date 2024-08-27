@@ -1,0 +1,32 @@
+.element-row {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to a new line */
+    justify-content: center; /* Center items horizontally */
+    font-family: sans-serif;
+    gap: 4%; /* Add gap between items */
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.header {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.treatmentbox {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex: 1 1 calc(30% - 2%); /* Allow the boxes to take up 30% of the row minus the gap */
+    margin: 1%;
+    padding: 1%; /* Reduce padding to make the boxes smaller */
+    border-radius: 15px;
+    background-color: #204e7c;
+    color: #f0f0f0;
+    text-align: center;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.treatmentbox:hover {
+    background-color: #86a2d1;
+    /* Add other hover styles if needed */
+}

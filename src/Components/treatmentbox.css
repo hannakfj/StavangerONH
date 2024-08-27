@@ -1,0 +1,17 @@
+.treatmentbox {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 20%;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 15px;
+    background-color:#204e7c;
+    color: #f0f0f0;
+    text-align: center;
+}
+
+
+.treatmentbox:hover {
+    background-color: #86a2d1;
+    /* Add other hover styles if needed */
+}
