@@ -1,10 +1,8 @@
-// Navbar.js
-
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Navbar.css';
 
-const HEADER_HEIGHT = 80; // Adjust this value to match the actual height of your header
+const HEADER_HEIGHT = 80;
 
 function Navbar() {
   const navigate = useNavigate();
