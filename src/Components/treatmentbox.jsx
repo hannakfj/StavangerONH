@@ -1,6 +1,5 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import './treatmentbox.css';
 
 function TreatmentBox({ treatment, descriptionShort }) {
     const navigate = useNavigate();
@@ -11,7 +10,7 @@ function TreatmentBox({ treatment, descriptionShort }) {
 
     return (
         <div className="treatmentbox" onClick={handleClick}>
-            <h1>{treatment}</h1>
+            <h1 id="treatmentname">{treatment}</h1>
             <p className="treatment-description">{
         }</p>
         </div>
