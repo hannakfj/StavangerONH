@@ -13,6 +13,7 @@
     font-family: sans-serif;
 }
 
+
 .treatmentbox {
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -20,13 +21,13 @@
     margin: 1%;
     padding: 1%; /* Reduce padding to make the boxes smaller */
     border-radius: 15px;
-    background-color: #204e7c;
-    color: #f0f0f0;
+    background-color: #75ad7f;
+    color: #1d4327;
     text-align: center;
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
 .treatmentbox:hover {
-    background-color: #86a2d1;
+    background-color: #278538;
     /* Add other hover styles if needed */
 }
