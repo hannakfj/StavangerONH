@@ -21,13 +21,13 @@
     margin: 1%;
     padding: 1%; /* Reduce padding to make the boxes smaller */
     border-radius: 15px;
-    background-color: #75ad7f;
-    color: #1d4327;
+    background-color: #758bad;
+    color:#003366;
     text-align: center;
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
 .treatmentbox:hover {
-    background-color: #278538;
+    background-color: #346ea1;
     /* Add other hover styles if needed */
 }

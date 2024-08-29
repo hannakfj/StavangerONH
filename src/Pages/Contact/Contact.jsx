@@ -25,13 +25,6 @@ function Contact() {
                     tabIndex="0">
                 </iframe>
             </div>
-            <div className="foot">
-                <p>website created by Hanna Katle Fjon
-                    <a href="https://www.linkedin.com/in/hanna-katle-fjon" target="_blank" rel="noopener noreferrer">
-                        <img className="linkedin" src={linkedin} alt="LinkedIn Profile" />
-                    </a>
-                </p>
-            </div>
         </div>
     );
 }
